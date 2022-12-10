@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-btn{
+    @apply hover:border-cyan-500 p-2 border border-transparent rounded-lg hover:text-cyan-600;
+}
+
+.default-scroll {
+    @apply scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-thin scrollbar-track-rounded-lg scrollbar-thumb-rounded-lg;
+}
+
+.section {
+    @apply w-full h-screen;
+}
