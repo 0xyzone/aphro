@@ -1,4 +1,7 @@
-<section id="about" class="snap-start section flex flex-shrink-0 justify-center items-center bg-transparent relative">
+<section id="about">
+    <x-titlebar>
+        something
+    </x-titlebar>
     about us
     
 </section>

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+section {
+    @apply snap-start w-full h-auto flex-shrink-0 bg-transparent relative flex justify-center items-center;
+}
 .fuss {
     @apply transform duration-300;
 }
@@ -20,8 +23,9 @@
 
 /* animated bg start */
 .area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    /* background: #4e54c8;   */
+    /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
+    @apply bg-gradient-to-tl from-cyan-500 to-lime-500;
     width: 100%;
     height:100vh;
     @apply absolute top-0;

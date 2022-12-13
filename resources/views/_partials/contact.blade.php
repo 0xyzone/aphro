@@ -1,3 +1,6 @@
-<section id="contact" class="snap-start section grid flex-shrink-0 justify-center items-center bg-transparent">
+<section id="contact">
+    <x-titlebar>
+        something
+    </x-titlebar>
     contact us
 </section>
